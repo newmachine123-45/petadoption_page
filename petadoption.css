@@ -1,0 +1,42 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+} */
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: orange;
+   
+}
+#pets{
+    display: flex;
+    /* margin: 50px;
+    padding: 50px; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+h1 span{
+    color: burlywood;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+.card{
+   width: 400px;
+   border: 2px solid black;
+   border-radius: 25px;
+   margin: 10px;
+   padding: 10px;
+}
+@media (max-width:375px) {
+    #pets{
+        flex-wrap:wrap ;
+    }
+    
+}
+/* flex-wrap:wrap is used when elements are not fitting in a element and by using it they just go on the next line and adjust and looks good  */
